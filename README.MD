@@ -5,8 +5,8 @@ In this repository I will do my best to create a couple of nice customshaders wi
 
 ## Features
 Links to bits of code:
-- [Shaders](../Assets/Shaders/)
-- [Script for editing shader values](../Scripts/ShaderController.cs)
+- [Shaders](/Assets/Shaders/)
+- [Script for editing shader values](Assets/Scripts/ShaderController.cs)
 
 ## Software Analysis
 I will be doing this in Unity C#. 

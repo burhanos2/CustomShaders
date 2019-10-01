@@ -7,11 +7,14 @@ Links to bits of code:
 - [Script for editing shader values](Assets/Scripts/ShaderController.cs)
 
 ## Software Analysis
-I will be doing this in Unity C#. 
-Unity has the shader language called "ShaderLab".
-ShaderLab is a node based editor.
-I have however looked into alternatives, like the GLSL(OpenGL Shading Language) language. However I do not have enough experience to work with OpenGL and it would only add another obstacle.
-Unreal Engine also has a node based editor, but Unity's ShaderLab is way more beginner friendly in my own opinion.
+Unity has the shader language called "ShaderLab". <br/>
+ShaderLab is a node based editor. <br/>
+<br/>
+I have however looked into alternatives, like the GLSL(OpenGL Shading Language) language. However I do not have enough experience to work with OpenGL and it would only add another obstacle. <br/>
+Unreal Engine also has a node based editor, but Unity's ShaderLab is way more beginner friendly in my own opinion.<br/>
+Furthermore, I have years of experience in Unity and only half a year in C++ and 2 months in Unreal Engine. <br/>
+<br/>
+Therefore, I have decided to do this assignment in Unity C#. 
 
 ## Learning Goals
 - I want to know what a shader does

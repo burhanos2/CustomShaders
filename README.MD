@@ -1,8 +1,6 @@
 # CustomShaders in Unity
 In this repository I will do my best to create a couple of nice customshaders with a little game. 
 
-### Readme is Work In Progress/Incomplete
-
 ## Features
 Links to bits of code:
 - [Shaders](/Assets/Shaders/)

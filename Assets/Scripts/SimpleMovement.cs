@@ -6,6 +6,6 @@ public class SimpleMovement : MonoBehaviour
 {
     void LateUpdate()
     {
-            transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * 10, 0f, Input.GetAxis("Vertical") * Time.deltaTime * 10);
+            transform.Translate(Input.GetAxis("Horizontal") * Time.deltaTime * 4, 0f, Input.GetAxis("Vertical") * Time.deltaTime * 4);
     }
 }

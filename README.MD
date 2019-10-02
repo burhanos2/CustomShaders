@@ -12,6 +12,8 @@ ShaderLab is a node based editor. <br/>
 <br/>
 I have however looked into alternatives, like the GLSL(OpenGL Shading Language) language. However I do not have enough experience to work with OpenGL and it would only add another obstacle. <br/>
 Unreal Engine also has a node based editor, but Unity's ShaderLab is way more beginner friendly in my own opinion.<br/>
+I have found a game engine called "cryengine" that uses a ubershader system. <br/>
+I have zero experience in cryengine however. I would like to check it out later sometime. <br/>
 Furthermore, I have years of experience in Unity and only half a year in C++ and 2 months in Unreal Engine. <br/>
 <br/>
 Therefore, I have decided to do this assignment in Unity C#. 

@@ -5,13 +5,31 @@ using UnityEngine;
 public class ShaderController : MonoBehaviour
 {
     [SerializeField]
+    private CollectFood foodtrigger;
+
+    [SerializeField]
     private Renderer rend;
+
     private Material mat;
 
-    // Start is called before the first frame update
-    void Start()
+    private float size;
+
+    [SerializeField]
+    private float _minSize, _maxSize, _sizeIncreaseBy, _sizeDecreaseBy;
+
+    [SerializeField] [Tooltip("Time in seconds it takes to lose hunger")]
+    private float _timeToDecrease;
+
+    private void Awake()
     {
         mat = rend.material;
-        mat.SetFloat("_Amount", 0);
+        foodtrigger.FoodEaten += OnFoodEaten;
+    }
+
+    void OnFoodEaten()
+    {
+        size++;
+        size = Mathf.Clamp(size, _minSize, _maxSize);
+        mat.SetFloat("_Amount", size);
     }
 }

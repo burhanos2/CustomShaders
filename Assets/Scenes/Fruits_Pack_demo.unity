@@ -504,7 +504,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad9c5d9022555014f835e0bd6ed07a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   rend: {fileID: 425983576}
+  mat: {fileID: 0}
 --- !u!54 &425983580
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -602,6 +611,7 @@ GameObject:
   - component: {fileID: 758833305}
   - component: {fileID: 758833310}
   - component: {fileID: 758833311}
+  - component: {fileID: 758833312}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -721,7 +731,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a8a27d965e9b14cafd6807102c36e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foodtrigger: {fileID: 758833312}
   rend: {fileID: 758833307}
+  _minSize: 0
+  _maxSize: 4
+  _sizeIncreaseBy: 0.2
+  _sizeDecreaseBy: 0.5
+  _timeToDecrease: 3
+--- !u!114 &758833312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758833304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d536db44660f06418ebe8969c018b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &779554542
 PrefabInstance:
   m_ObjectHideFlags: 0
